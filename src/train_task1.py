@@ -5,7 +5,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.pipeline import Pipeline
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
-from sklearn.metrics import classification_report, f1_score
+from sklearn.metrics import classification_report, f1_score, precision_score, recall_score
 
 data_path = Path("data/train.csv")
 
@@ -49,6 +49,7 @@ model = Pipeline([
 model.fit(X_train, y_train)
 
 Path("models").mkdir(exist_ok=True)
+Path("outputs").mkdir(exist_ok=True)
 
 joblib.dump(
     model,
@@ -60,5 +61,25 @@ print("models/task1_model.pkl")
 
 pred = model.predict(X_val)
 
-print(classification_report(y_val, pred))
-print("Macro F1:", f1_score(y_val, pred, average="macro"))
+report = classification_report(y_val, pred)
+
+macro_precision = precision_score(y_val, pred, average="macro", zero_division=0)
+macro_recall = recall_score(y_val, pred, average="macro", zero_division=0)
+macro_f1 = f1_score(y_val, pred, average="macro", zero_division=0)
+
+print(report)
+print("Macro Precision:", macro_precision)
+print("Macro Recall:", macro_recall)
+print("Macro F1:", macro_f1)
+
+with open("outputs/task1_metrics.txt", "w", encoding="utf-8") as f:
+    f.write("Task 1 - Misogyny Detection\n")
+    f.write("===========================\n\n")
+    f.write(report)
+    f.write("\n")
+    f.write(f"Macro Precision: {macro_precision:.4f}\n")
+    f.write(f"Macro Recall: {macro_recall:.4f}\n")
+    f.write(f"Macro F1: {macro_f1:.4f}\n")
+
+print("\nModelo guardado en models/task1_model.pkl")
+print("Métricas guardadas en outputs/task1_metrics.txt")
