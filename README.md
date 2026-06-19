@@ -48,4 +48,4 @@ Analizar errores por categoría.
 
 ## AVISO DE PROCEDENCIA DE LOS DATOS DE ENTRENAMIENTO
 
-Debido a las limitaciones de acceso al conjunto de datos oficial de MiSonGyny 2026, este repositorio incluye un conjunto de datos sintético que sigue la misma estructura de columnas y formato de etiquetas descrito por los organizadores. El objetivo es implementar un flujo de trabajo base reproducible compatible con las definiciones oficiales de las tareas.
+Debido a las limitaciones de acceso al conjunto de datos oficial de MiSonGyny 2026 (correo de activación de la cuenta no llega al correo electrónico), este repositorio incluye un conjunto de datos sintético que sigue la misma estructura de columnas y formato de etiquetas descrito por los organizadores. El objetivo es implementar un flujo de trabajo base reproducible compatible con las definiciones oficiales de las tareas.
