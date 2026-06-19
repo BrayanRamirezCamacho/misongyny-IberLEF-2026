@@ -45,3 +45,7 @@ Esta solución no usa modelos de lenguaje grandes ni embeddings contextuales. Su
 - Ajustar hiperparámetros.
 - Manejar desbalance de clases.
 Analizar errores por categoría.
+
+## AVISO DE PROCEDENCIA DE LOS DATOS DE ENTRENAMIENTO
+
+Debido a las limitaciones de acceso al conjunto de datos oficial de MiSonGyny 2026, este repositorio incluye un conjunto de datos sintético que sigue la misma estructura de columnas y formato de etiquetas descrito por los organizadores. El objetivo es implementar un flujo de trabajo base reproducible compatible con las definiciones oficiales de las tareas.
