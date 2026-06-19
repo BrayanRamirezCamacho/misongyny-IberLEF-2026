@@ -1,0 +1,15 @@
+Task 3 - Gender Stereotype Detection
+====================================
+
+              precision    recall  f1-score   support
+
+           N       0.87      0.71      0.78        28
+           Y       0.68      0.85      0.76        20
+
+    accuracy                           0.77        48
+   macro avg       0.77      0.78      0.77        48
+weighted avg       0.79      0.77      0.77        48
+
+Macro Precision: 0.7748
+Macro Recall: 0.7821
+Macro F1: 0.7699
