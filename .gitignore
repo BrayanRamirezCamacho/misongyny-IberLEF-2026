@@ -1,0 +1,25 @@
+# Entorno virtual
+ds_env/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Archivos temporales
+*.log
+
+# Modelos entrenados
+*.pkl
+*.joblib
+
+# Resultados
+outputs/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
