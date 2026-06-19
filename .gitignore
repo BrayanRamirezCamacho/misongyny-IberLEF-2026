@@ -14,11 +14,11 @@ __pycache__/
 *.log
 
 # Modelos entrenados
-*.pkl
-*.joblib
+models/*.pkl
+models/*.joblib
 
 # Resultados
-outputs/
+outputs/*.csv
 
 # Sistema operativo
 .DS_Store
