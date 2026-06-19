@@ -1,7 +1,241 @@
 id,lyrics,is_misogynystic,type_sexualization,type_violence,type_hate,has_gender_stereotype
-TRAIN_0001,Ella camina libre por la ciudad y decide su propio camino,NM,0,0,0,N
-TRAIN_0002,La canción describe a una mujer solo por su cuerpo y apariencia,M,1,0,0,Y
-TRAIN_0003,Dice que las mujeres deben quedarse en casa y obedecer,M,0,0,1,Y
-TRAIN_0004,"La letra habla de respeto, igualdad y amor entre personas",NM,0,0,0,N
-TRAIN_0005,El personaje amenaza y controla a su pareja en la canción,M,0,1,0,N
-TRAIN_0006,"La letra celebra que ella estudia, trabaja y toma decisiones",NM,0,0,0,N
+TRAIN_0001,La canción defiende la libertad y la dignidad de todas las personas,NM,0,0,0,N
+TRAIN_0002,La letra presenta a la mujer como un premio o trofeo,M,1,0,0,N
+TRAIN_0003,Se describe una relación basada en apoyo mutuo y cariño,NM,0,0,0,N
+TRAIN_0004,El texto insiste en mirar su cuerpo sin mencionar su personalidad,M,1,0,0,N
+TRAIN_0005,El cantante habla de ella como si fuera un objeto de deseo,M,1,0,0,Y
+TRAIN_0006,La canción afirma que las mujeres son inferiores a los hombres,M,0,0,1,N
+TRAIN_0007,El texto sugiere que los hombres mandan y las mujeres cuidan,M,0,0,1,Y
+TRAIN_0008,La canción normaliza los celos extremos y el control,M,0,1,0,N
+TRAIN_0009,El texto dice que una mujer no debería tener ambiciones propias,M,0,0,0,Y
+TRAIN_0010,La canción habla de respeto igualdad y confianza en una relación,NM,0,0,0,N
+TRAIN_0011,El personaje amenaza a su pareja y controla sus decisiones,M,0,1,0,N
+TRAIN_0012,El texto expresa rechazo y desprecio hacia las mujeres,M,0,0,1,N
+TRAIN_0013,La canción habla de respeto igualdad y confianza en una relación,NM,0,0,0,N
+TRAIN_0014,Se describe una relación basada en apoyo mutuo y cariño,NM,0,0,0,N
+TRAIN_0015,El cantante habla de ella como si fuera un objeto de deseo,M,1,0,0,Y
+TRAIN_0016,El texto presenta gritos amenazas y dominio sobre una mujer,M,0,1,0,N
+TRAIN_0017,La letra celebra que ella estudia trabaja y toma decisiones,NM,0,0,0,N
+TRAIN_0018,La canción normaliza los celos extremos y el control,M,0,1,0,Y
+TRAIN_0019,El texto usa insultos generalizados contra las mujeres,M,0,0,1,N
+TRAIN_0020,La letra afirma que una mujer debe cocinar limpiar y obedecer,M,0,0,0,Y
+TRAIN_0021,La canción normaliza los celos extremos y el control,M,0,1,0,Y
+TRAIN_0022,La canción afirma que las mujeres son inferiores a los hombres,M,0,0,1,Y
+TRAIN_0023,La canción habla de respeto igualdad y confianza en una relación,NM,0,0,0,N
+TRAIN_0024,La letra describe una relación con intimidación y miedo,M,0,1,0,Y
+TRAIN_0025,La canción normaliza los celos extremos y el control,M,0,1,0,N
+TRAIN_0026,La canción repite que una buena mujer debe ser sumisa,M,0,0,0,Y
+TRAIN_0027,El texto insiste en mirar su cuerpo sin mencionar su personalidad,M,1,0,0,Y
+TRAIN_0028,La letra afirma que una mujer debe cocinar limpiar y obedecer,M,0,0,1,Y
+TRAIN_0029,La canción dice que las mujeres deben quedarse en casa,M,0,0,1,Y
+TRAIN_0030,La canción reduce su valor a su belleza física,M,1,0,0,N
+TRAIN_0031,El texto usa insultos generalizados contra las mujeres,M,0,0,1,N
+TRAIN_0032,La letra muestra admiración por su inteligencia y valentía,NM,0,0,0,N
+TRAIN_0033,El texto habla de amor sin control ni posesión,NM,0,0,0,N
+TRAIN_0034,La letra afirma que una mujer debe cocinar limpiar y obedecer,M,0,0,0,Y
+TRAIN_0035,Ella sueña con viajar aprender y construir su futuro,NM,0,0,0,N
+TRAIN_0036,La letra afirma que una mujer debe cocinar limpiar y obedecer,M,0,0,0,Y
+TRAIN_0037,La letra presenta a la mujer como un premio o trofeo,M,1,0,0,Y
+TRAIN_0038,La historia presenta a una mujer fuerte independiente y creativa,NM,0,0,0,N
+TRAIN_0039,La canción dice que las mujeres deben quedarse en casa,M,0,0,0,Y
+TRAIN_0040,La letra presenta a la mujer como un premio o trofeo,M,1,0,0,N
+TRAIN_0041,El texto presenta gritos amenazas y dominio sobre una mujer,M,0,1,0,Y
+TRAIN_0042,Ella camina libre y decide su propio camino en la ciudad,NM,0,0,0,N
+TRAIN_0043,La letra asocia a las mujeres únicamente con tareas domésticas,M,0,0,0,Y
+TRAIN_0044,La letra celebra que ella estudia trabaja y toma decisiones,NM,0,0,0,N
+TRAIN_0045,La canción habla de respeto igualdad y confianza en una relación,NM,0,0,0,N
+TRAIN_0046,La letra asocia a las mujeres únicamente con tareas domésticas,M,0,0,0,Y
+TRAIN_0047,La canción usa lenguaje de posesión sobre el cuerpo de una mujer,M,1,0,0,Y
+TRAIN_0048,El texto insiste en mirar su cuerpo sin mencionar su personalidad,M,1,0,0,Y
+TRAIN_0049,La canción defiende la libertad y la dignidad de todas las personas,NM,0,0,0,N
+TRAIN_0050,La letra desprecia a las mujeres y niega su capacidad,M,0,0,1,Y
+TRAIN_0051,El texto presenta gritos amenazas y dominio sobre una mujer,M,0,1,0,Y
+TRAIN_0052,La canción reconoce su talento su voz y sus logros personales,NM,0,0,0,N
+TRAIN_0053,La canción defiende la libertad y la dignidad de todas las personas,NM,0,0,0,N
+TRAIN_0054,El texto presenta gritos amenazas y dominio sobre una mujer,M,0,1,0,N
+TRAIN_0055,Ella sueña con viajar aprender y construir su futuro,NM,0,0,0,N
+TRAIN_0056,Se describe una relación basada en apoyo mutuo y cariño,NM,0,0,0,N
+TRAIN_0057,La historia presenta a una mujer fuerte independiente y creativa,NM,0,0,0,N
+TRAIN_0058,Se describe una relación basada en apoyo mutuo y cariño,NM,0,0,0,N
+TRAIN_0059,El cantante dice que no acepta que ella termine la relación,M,0,1,0,N
+TRAIN_0060,La letra describe una relación con intimidación y miedo,M,0,1,0,N
+TRAIN_0061,La canción normaliza los celos extremos y el control,M,0,1,0,N
+TRAIN_0062,La canción afirma que las mujeres son inferiores a los hombres,M,0,0,1,Y
+TRAIN_0063,El texto insiste en mirar su cuerpo sin mencionar su personalidad,M,1,0,0,Y
+TRAIN_0064,La canción dice que las mujeres deben quedarse en casa,M,0,0,0,Y
+TRAIN_0065,La letra muestra admiración por su inteligencia y valentía,NM,0,0,0,N
+TRAIN_0066,El cantante dice que no acepta que ella termine la relación,M,0,1,0,Y
+TRAIN_0067,El texto sugiere que los hombres mandan y las mujeres cuidan,M,0,0,0,Y
+TRAIN_0068,El cantante habla de ella como si fuera un objeto de deseo,M,1,0,0,N
+TRAIN_0069,La canción reduce su valor a su belleza física,M,1,0,0,Y
+TRAIN_0070,La canción normaliza los celos extremos y el control,M,0,1,0,N
+TRAIN_0071,El texto presenta gritos amenazas y dominio sobre una mujer,M,0,1,0,Y
+TRAIN_0072,La letra muestra admiración por su inteligencia y valentía,NM,0,0,0,N
+TRAIN_0073,La canción reduce su valor a su belleza física,M,1,0,0,Y
+TRAIN_0074,La letra desprecia a las mujeres y niega su capacidad,M,0,0,1,N
+TRAIN_0075,La canción habla de respeto igualdad y confianza en una relación,NM,0,0,0,N
+TRAIN_0076,La canción habla de respeto igualdad y confianza en una relación,NM,0,0,0,N
+TRAIN_0077,La letra muestra admiración por su inteligencia y valentía,NM,0,0,0,N
+TRAIN_0078,La letra celebra que ella estudia trabaja y toma decisiones,NM,0,0,0,N
+TRAIN_0079,El texto sugiere que los hombres mandan y las mujeres cuidan,M,0,0,1,Y
+TRAIN_0080,La canción defiende la libertad y la dignidad de todas las personas,NM,0,0,0,N
+TRAIN_0081,Se describe una relación basada en apoyo mutuo y cariño,NM,0,0,0,N
+TRAIN_0082,La historia presenta a una mujer fuerte independiente y creativa,NM,0,0,0,N
+TRAIN_0083,La letra afirma que una mujer debe cocinar limpiar y obedecer,M,0,0,1,Y
+TRAIN_0084,La letra asocia a las mujeres únicamente con tareas domésticas,M,0,0,1,Y
+TRAIN_0085,El texto usa insultos generalizados contra las mujeres,M,0,0,1,Y
+TRAIN_0086,La canción habla de respeto igualdad y confianza en una relación,NM,0,0,0,N
+TRAIN_0087,El texto expresa rechazo y desprecio hacia las mujeres,M,0,0,1,N
+TRAIN_0088,El texto usa insultos generalizados contra las mujeres,M,0,0,1,Y
+TRAIN_0089,La letra describe a una mujer únicamente por su cuerpo y apariencia,M,1,0,0,N
+TRAIN_0090,La letra celebra que ella estudia trabaja y toma decisiones,NM,0,0,0,N
+TRAIN_0091,El texto dice que una mujer no debería tener ambiciones propias,M,0,0,1,Y
+TRAIN_0092,La letra describe una relación con intimidación y miedo,M,0,1,0,N
+TRAIN_0093,La letra presenta a la mujer como un premio o trofeo,M,1,0,0,N
+TRAIN_0094,La letra dice que las mujeres solo deben obedecer,M,0,0,1,Y
+TRAIN_0095,La letra describe a una mujer únicamente por su cuerpo y apariencia,M,1,0,0,Y
+TRAIN_0096,El texto dice que una mujer no debería tener ambiciones propias,M,0,0,0,Y
+TRAIN_0097,La letra asocia a las mujeres únicamente con tareas domésticas,M,0,0,0,Y
+TRAIN_0098,La historia presenta a una mujer fuerte independiente y creativa,NM,0,0,0,N
+TRAIN_0099,El texto presenta gritos amenazas y dominio sobre una mujer,M,0,1,0,Y
+TRAIN_0100,La canción repite que una buena mujer debe ser sumisa,M,0,0,0,Y
+TRAIN_0101,La letra describe a una mujer únicamente por su cuerpo y apariencia,M,1,0,0,N
+TRAIN_0102,La historia presenta a una mujer fuerte independiente y creativa,NM,0,0,0,N
+TRAIN_0103,La canción dice que las mujeres deben quedarse en casa,M,0,0,1,Y
+TRAIN_0104,La letra desprecia a las mujeres y niega su capacidad,M,0,0,1,Y
+TRAIN_0105,La canción habla de respeto igualdad y confianza en una relación,NM,0,0,0,N
+TRAIN_0106,El cantante dice que no acepta que ella termine la relación,M,0,1,0,N
+TRAIN_0107,La letra dice que las mujeres solo deben obedecer,M,0,0,1,Y
+TRAIN_0108,La letra describe una relación con intimidación y miedo,M,0,1,0,Y
+TRAIN_0109,La letra desprecia a las mujeres y niega su capacidad,M,0,0,1,N
+TRAIN_0110,El personaje amenaza a su pareja y controla sus decisiones,M,0,1,0,Y
+TRAIN_0111,La historia presenta a una mujer fuerte independiente y creativa,NM,0,0,0,N
+TRAIN_0112,La canción normaliza los celos extremos y el control,M,0,1,0,Y
+TRAIN_0113,La canción reduce su valor a su belleza física,M,1,0,0,Y
+TRAIN_0114,El texto dice que una mujer no debería tener ambiciones propias,M,0,0,0,Y
+TRAIN_0115,La canción presenta a las mujeres como incapaces de decidir,M,0,0,1,Y
+TRAIN_0116,La canción presenta a las mujeres como incapaces de decidir,M,0,0,1,Y
+TRAIN_0117,La letra describe una relación con intimidación y miedo,M,0,1,0,N
+TRAIN_0118,La historia presenta a una mujer fuerte independiente y creativa,NM,0,0,0,N
+TRAIN_0119,El texto usa insultos generalizados contra las mujeres,M,0,0,1,Y
+TRAIN_0120,La letra afirma que una mujer debe cocinar limpiar y obedecer,M,0,0,0,Y
+TRAIN_0121,Se describe una relación basada en apoyo mutuo y cariño,NM,0,0,0,N
+TRAIN_0122,La canción reconoce su talento su voz y sus logros personales,NM,0,0,0,N
+TRAIN_0123,El cantante dice que no acepta que ella termine la relación,M,0,1,0,N
+TRAIN_0124,La canción dice que las mujeres deben quedarse en casa,M,0,0,1,Y
+TRAIN_0125,El cantante dice que no acepta que ella termine la relación,M,0,1,0,N
+TRAIN_0126,El texto expresa rechazo y desprecio hacia las mujeres,M,0,0,1,N
+TRAIN_0127,La letra describe a una mujer únicamente por su cuerpo y apariencia,M,1,0,0,Y
+TRAIN_0128,El cantante dice que no acepta que ella termine la relación,M,0,1,0,Y
+TRAIN_0129,La canción defiende la libertad y la dignidad de todas las personas,NM,0,0,0,N
+TRAIN_0130,El texto sugiere que los hombres mandan y las mujeres cuidan,M,0,0,0,Y
+TRAIN_0131,La canción afirma que las mujeres son inferiores a los hombres,M,0,0,1,N
+TRAIN_0132,La historia presenta a una mujer fuerte independiente y creativa,NM,0,0,0,N
+TRAIN_0133,El texto expresa rechazo y desprecio hacia las mujeres,M,0,0,1,N
+TRAIN_0134,El texto insiste en mirar su cuerpo sin mencionar su personalidad,M,1,0,0,Y
+TRAIN_0135,La canción normaliza los celos extremos y el control,M,0,1,0,Y
+TRAIN_0136,El texto sugiere que los hombres mandan y las mujeres cuidan,M,0,0,0,Y
+TRAIN_0137,El texto dice que una mujer no debería tener ambiciones propias,M,0,0,1,Y
+TRAIN_0138,Ella camina libre y decide su propio camino en la ciudad,NM,0,0,0,N
+TRAIN_0139,La letra muestra admiración por su inteligencia y valentía,NM,0,0,0,N
+TRAIN_0140,El texto presenta gritos amenazas y dominio sobre una mujer,M,0,1,0,Y
+TRAIN_0141,La canción reduce su valor a su belleza física,M,1,0,0,N
+TRAIN_0142,La letra describe a una mujer únicamente por su cuerpo y apariencia,M,1,0,0,N
+TRAIN_0143,La letra asocia a las mujeres únicamente con tareas domésticas,M,0,0,1,Y
+TRAIN_0144,El texto expresa rechazo y desprecio hacia las mujeres,M,0,0,1,Y
+TRAIN_0145,Ella sueña con viajar aprender y construir su futuro,NM,0,0,0,N
+TRAIN_0146,La letra presenta a la mujer como un premio o trofeo,M,1,0,0,N
+TRAIN_0147,El texto dice que una mujer no debería tener ambiciones propias,M,0,0,1,Y
+TRAIN_0148,El cantante dice que no acepta que ella termine la relación,M,0,1,0,N
+TRAIN_0149,Ella sueña con viajar aprender y construir su futuro,NM,0,0,0,N
+TRAIN_0150,La letra dice que las mujeres solo deben obedecer,M,0,0,1,Y
+TRAIN_0151,El cantante habla de ella como si fuera un objeto de deseo,M,1,0,0,N
+TRAIN_0152,El texto expresa rechazo y desprecio hacia las mujeres,M,0,0,1,N
+TRAIN_0153,El texto dice que una mujer no debería tener ambiciones propias,M,0,0,0,Y
+TRAIN_0154,El texto presenta gritos amenazas y dominio sobre una mujer,M,0,1,0,N
+TRAIN_0155,La canción reconoce su talento su voz y sus logros personales,NM,0,0,0,N
+TRAIN_0156,La letra muestra admiración por su inteligencia y valentía,NM,0,0,0,N
+TRAIN_0157,Ella camina libre y decide su propio camino en la ciudad,NM,0,0,0,N
+TRAIN_0158,Ella sueña con viajar aprender y construir su futuro,NM,0,0,0,N
+TRAIN_0159,La canción reduce su valor a su belleza física,M,1,0,0,Y
+TRAIN_0160,El texto insiste en mirar su cuerpo sin mencionar su personalidad,M,1,0,0,N
+TRAIN_0161,El texto habla de amor sin control ni posesión,NM,0,0,0,N
+TRAIN_0162,El texto insiste en mirar su cuerpo sin mencionar su personalidad,M,1,0,0,N
+TRAIN_0163,La canción usa lenguaje de posesión sobre el cuerpo de una mujer,M,1,0,0,Y
+TRAIN_0164,La letra dice que las mujeres solo deben obedecer,M,0,0,1,N
+TRAIN_0165,El texto expresa rechazo y desprecio hacia las mujeres,M,0,0,1,Y
+TRAIN_0166,La canción habla de respeto igualdad y confianza en una relación,NM,0,0,0,N
+TRAIN_0167,El texto sugiere que los hombres mandan y las mujeres cuidan,M,0,0,1,Y
+TRAIN_0168,La canción afirma que las mujeres son inferiores a los hombres,M,0,0,1,Y
+TRAIN_0169,Ella sueña con viajar aprender y construir su futuro,NM,0,0,0,N
+TRAIN_0170,Se describe una relación basada en apoyo mutuo y cariño,NM,0,0,0,N
+TRAIN_0171,La letra desprecia a las mujeres y niega su capacidad,M,0,0,1,Y
+TRAIN_0172,La canción afirma que las mujeres son inferiores a los hombres,M,0,0,1,Y
+TRAIN_0173,Se describe una relación basada en apoyo mutuo y cariño,NM,0,0,0,N
+TRAIN_0174,El texto habla de amor sin control ni posesión,NM,0,0,0,N
+TRAIN_0175,El texto presenta gritos amenazas y dominio sobre una mujer,M,0,1,0,Y
+TRAIN_0176,El texto insiste en mirar su cuerpo sin mencionar su personalidad,M,1,0,0,N
+TRAIN_0177,La letra sugiere castigar a una mujer por desobedecer,M,0,1,0,Y
+TRAIN_0178,El texto expresa rechazo y desprecio hacia las mujeres,M,0,0,1,N
+TRAIN_0179,El texto habla de amor sin control ni posesión,NM,0,0,0,N
+TRAIN_0180,La canción normaliza los celos extremos y el control,M,0,1,0,Y
+TRAIN_0181,La letra celebra que ella estudia trabaja y toma decisiones,NM,0,0,0,N
+TRAIN_0182,La canción usa lenguaje de posesión sobre el cuerpo de una mujer,M,1,0,0,Y
+TRAIN_0183,La canción habla de respeto igualdad y confianza en una relación,NM,0,0,0,N
+TRAIN_0184,La canción normaliza los celos extremos y el control,M,0,1,0,Y
+TRAIN_0185,El cantante habla de ella como si fuera un objeto de deseo,M,1,0,0,N
+TRAIN_0186,Ella camina libre y decide su propio camino en la ciudad,NM,0,0,0,N
+TRAIN_0187,La letra muestra admiración por su inteligencia y valentía,NM,0,0,0,N
+TRAIN_0188,La letra afirma que una mujer debe cocinar limpiar y obedecer,M,0,0,0,Y
+TRAIN_0189,El texto insiste en mirar su cuerpo sin mencionar su personalidad,M,1,0,0,Y
+TRAIN_0190,El texto insiste en mirar su cuerpo sin mencionar su personalidad,M,1,0,0,N
+TRAIN_0191,El texto habla de amor sin control ni posesión,NM,0,0,0,N
+TRAIN_0192,La letra presenta a la mujer como un premio o trofeo,M,1,0,0,N
+TRAIN_0193,La letra asocia a las mujeres únicamente con tareas domésticas,M,0,0,1,Y
+TRAIN_0194,La letra afirma que una mujer debe cocinar limpiar y obedecer,M,0,0,1,Y
+TRAIN_0195,El texto insiste en mirar su cuerpo sin mencionar su personalidad,M,1,0,0,N
+TRAIN_0196,La letra desprecia a las mujeres y niega su capacidad,M,0,0,1,N
+TRAIN_0197,La letra asocia a las mujeres únicamente con tareas domésticas,M,0,0,1,Y
+TRAIN_0198,Se describe una relación basada en apoyo mutuo y cariño,NM,0,0,0,N
+TRAIN_0199,El texto sugiere que los hombres mandan y las mujeres cuidan,M,0,0,1,Y
+TRAIN_0200,La letra describe a una mujer únicamente por su cuerpo y apariencia,M,1,0,0,N
+TRAIN_0201,La letra afirma que una mujer debe cocinar limpiar y obedecer,M,0,0,1,Y
+TRAIN_0202,El texto usa insultos generalizados contra las mujeres,M,0,0,1,N
+TRAIN_0203,La letra muestra admiración por su inteligencia y valentía,NM,0,0,0,N
+TRAIN_0204,La canción afirma que las mujeres son inferiores a los hombres,M,0,0,1,Y
+TRAIN_0205,La letra celebra que ella estudia trabaja y toma decisiones,NM,0,0,0,N
+TRAIN_0206,Se describe una relación basada en apoyo mutuo y cariño,NM,0,0,0,N
+TRAIN_0207,La canción normaliza los celos extremos y el control,M,0,1,0,Y
+TRAIN_0208,La canción usa lenguaje de posesión sobre el cuerpo de una mujer,M,1,0,0,Y
+TRAIN_0209,La canción habla de respeto igualdad y confianza en una relación,NM,0,0,0,N
+TRAIN_0210,El texto insiste en mirar su cuerpo sin mencionar su personalidad,M,1,0,0,N
+TRAIN_0211,El texto sugiere que los hombres mandan y las mujeres cuidan,M,0,0,1,Y
+TRAIN_0212,La canción presenta a las mujeres como incapaces de decidir,M,0,0,1,Y
+TRAIN_0213,La letra desprecia a las mujeres y niega su capacidad,M,0,0,1,N
+TRAIN_0214,La canción presenta a las mujeres como incapaces de decidir,M,0,0,1,Y
+TRAIN_0215,La canción defiende la libertad y la dignidad de todas las personas,NM,0,0,0,N
+TRAIN_0216,La canción normaliza los celos extremos y el control,M,0,1,0,N
+TRAIN_0217,La canción dice que las mujeres deben quedarse en casa,M,0,0,1,Y
+TRAIN_0218,El cantante dice que no acepta que ella termine la relación,M,0,1,0,N
+TRAIN_0219,La canción normaliza los celos extremos y el control,M,0,1,0,Y
+TRAIN_0220,El texto habla de amor sin control ni posesión,NM,0,0,0,N
+TRAIN_0221,Se describe una relación basada en apoyo mutuo y cariño,NM,0,0,0,N
+TRAIN_0222,Ella sueña con viajar aprender y construir su futuro,NM,0,0,0,N
+TRAIN_0223,La canción reconoce su talento su voz y sus logros personales,NM,0,0,0,N
+TRAIN_0224,El texto habla de amor sin control ni posesión,NM,0,0,0,N
+TRAIN_0225,La letra describe a una mujer únicamente por su cuerpo y apariencia,M,1,0,0,N
+TRAIN_0226,El cantante dice que no acepta que ella termine la relación,M,0,1,0,N
+TRAIN_0227,La letra celebra que ella estudia trabaja y toma decisiones,NM,0,0,0,N
+TRAIN_0228,La canción normaliza los celos extremos y el control,M,0,1,0,Y
+TRAIN_0229,La letra asocia a las mujeres únicamente con tareas domésticas,M,0,0,0,Y
+TRAIN_0230,La canción presenta a las mujeres como incapaces de decidir,M,0,0,1,Y
+TRAIN_0231,La canción habla de respeto igualdad y confianza en una relación,NM,0,0,0,N
+TRAIN_0232,El texto expresa rechazo y desprecio hacia las mujeres,M,0,0,1,N
+TRAIN_0233,La letra celebra que ella estudia trabaja y toma decisiones,NM,0,0,0,N
+TRAIN_0234,El texto habla de amor sin control ni posesión,NM,0,0,0,N
+TRAIN_0235,La letra celebra que ella estudia trabaja y toma decisiones,NM,0,0,0,N
+TRAIN_0236,Ella camina libre y decide su propio camino en la ciudad,NM,0,0,0,N
+TRAIN_0237,El texto usa insultos generalizados contra las mujeres,M,0,0,1,N
+TRAIN_0238,La historia presenta a una mujer fuerte independiente y creativa,NM,0,0,0,N
+TRAIN_0239,Se describe una relación basada en apoyo mutuo y cariño,NM,0,0,0,N
+TRAIN_0240,La canción presenta a las mujeres como incapaces de decidir,M,0,0,1,N
