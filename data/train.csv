@@ -1,0 +1,7 @@
+id,lyrics,is_misogynystic,type_sexualization,type_violence,type_hate,has_gender_stereotype
+TRAIN_0001,Ella camina libre por la ciudad y decide su propio camino,NM,0,0,0,N
+TRAIN_0002,La canción describe a una mujer solo por su cuerpo y apariencia,M,1,0,0,Y
+TRAIN_0003,Dice que las mujeres deben quedarse en casa y obedecer,M,0,0,1,Y
+TRAIN_0004,"La letra habla de respeto, igualdad y amor entre personas",NM,0,0,0,N
+TRAIN_0005,El personaje amenaza y controla a su pareja en la canción,M,0,1,0,N
+TRAIN_0006,"La letra celebra que ella estudia, trabaja y toma decisiones",NM,0,0,0,N

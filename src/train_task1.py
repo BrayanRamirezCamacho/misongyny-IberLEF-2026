@@ -1,4 +1,5 @@
 import pandas as pd
+from pathlib import Path
 from sklearn.model_selection import train_test_split
 from sklearn.pipeline import Pipeline
 from sklearn.feature_extraction.text import TfidfVectorizer
@@ -19,15 +20,21 @@ if df.empty:
         "El archivo train.csv está vacío"
     )
 
+else:
+	print("Columnas encontradas:")
+	print(df.columns.tolist())
+
+	print("\nDistribución de clases:")
+	print(df["is_misogynystic"].value_counts())
+
 TEXT_COL = "lyrics"
-LABEL_COL = "label"
+LABEL_COL = "is_misogynystic"
 
 X = df[TEXT_COL].fillna("")
 y = df[LABEL_COL]
 
 X_train, X_val, y_train, y_val = train_test_split(
-    X, y, test_size=0.2, random_state=42, stratify=y
-)
+    X, y, test_size=0.2, random_state=42)
 
 model = Pipeline([
     ("tfidf", TfidfVectorizer(
