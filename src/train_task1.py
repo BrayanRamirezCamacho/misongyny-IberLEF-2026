@@ -5,7 +5,19 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import classification_report, f1_score
 
-df = pd.read_csv("data/train.csv")
+data_path = Path("data/train.csv")
+
+if not data_path.exists():
+    raise FileNotFoundError(
+        "No se encontró data/train.csv"
+    )
+
+df = pd.read_csv(data_path)
+
+if df.empty:
+    raise ValueError(
+        "El archivo train.csv está vacío"
+    )
 
 TEXT_COL = "lyrics"
 LABEL_COL = "label"
