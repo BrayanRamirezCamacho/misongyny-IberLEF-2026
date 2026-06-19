@@ -1,4 +1,5 @@
 import pandas as pd
+import joblib
 from pathlib import Path
 from sklearn.model_selection import train_test_split
 from sklearn.pipeline import Pipeline
@@ -46,6 +47,17 @@ model = Pipeline([
 ])
 
 model.fit(X_train, y_train)
+
+Path("models").mkdir(exist_ok=True)
+
+joblib.dump(
+    model,
+    "models/task1_model.pkl"
+)
+
+print("\nModelo guardado en:")
+print("models/task1_model.pkl")
+
 pred = model.predict(X_val)
 
 print(classification_report(y_val, pred))
